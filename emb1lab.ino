@@ -13,16 +13,16 @@ void loop() {
   digitalWrite(LED1, HIGH);  
   digitalWrite(LED2, LOW);  
   digitalWrite(LED3, LOW);
-  delay(350);  // Wait 400 milliseconds
+  delay(350);  // Wait 350 milliseconds
   // Turn on LED2, turn off LED1 and LED3
   digitalWrite(LED1, LOW);  
   digitalWrite(LED2, HIGH);  
   digitalWrite(LED3, LOW);
-  delay(350);  // Wait 400 milliseconds
+  delay(350);  // Wait 350 milliseconds
   // Turn on LED3, turn off LED1 and LED2
   digitalWrite(LED1, LOW);  
   digitalWrite(LED2, LOW);  
   digitalWrite(LED3, HIGH);
-  delay(350);  // Wait 400 milliseconds
+  delay(350);  // Wait 350 milliseconds
   // Loop repeats indefinitely
 }
